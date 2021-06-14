@@ -1,8 +1,8 @@
 Mögliche Schaltung um einen (zB Zähl-)Prozess zu stoppen. Sobald rechts keine Spannung anliegt (=0), wird die Schaltung unten deaktiviert - egal ob der obere Schalter offen oder geschlossen ist.
 
 $ 65 0.000005 3.3115451958692312 25 5 50 5e-11
-162 1232 160 1232 208 2 default-led 1 0 0 0.01
-g 1232 208 1232 224 0 0
+162 1232 224 1232 272 2 default-led 1 0 0 0.02
+g 1232 272 1232 288 0 0
 I 1232 112 1232 160 0 0.5 5
 s 1232 -16 1232 48 0 0 false
 I 1360 112 1312 112 0 0.5 5
@@ -11,5 +11,7 @@ R 1472 112 1520 112 0 0 40 5 0 0 0.159154943092
 s 1360 112 1472 112 0 0 false
 r 1232 48 1232 112 0 1000
 R 1232 -16 1232 -80 1 2 100 2.5 2.5 0 0.5
-o 2 64 0 4099 10 102.4 0 2 2 3
+r 1232 160 1232 224 0 157.5
+o 0 64 0 4099 10 12.8 0 2 0 3
+
 
